@@ -9,6 +9,7 @@ public class bj_1929 {
 		int m = sc.nextInt();
 		StringBuilder sb = new StringBuilder();
 		
+		// 에라토스테네스의 체
 		boolean[] prime = new boolean[m+1];		
 		prime[0] = true;
 		prime[1] = true;

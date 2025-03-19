@@ -2,6 +2,8 @@ import java.util.*;
 
 public class bj_2609 {
 	// 유클리드 호제법
+	// MOD 연산 - A를 B로 나눈 나머지를 구하는 연산
+	// A % B = C, B % C = D, D % E = F, ...
 	public static int gcd(int n, int m) {
         int r;
         while(m > 0) {
