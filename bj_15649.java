@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class bj_15649 {
+<<<<<<< HEAD
     
     public static boolean [] visit; // 중복 방지 배열 
     public static int arr []; // 순열 저장 배열, 현재까지 선택된 m개의 숫자 저장
@@ -40,6 +41,14 @@ public class bj_15649 {
                 }
             }
         }
+=======
+	
+	public static void(String arg[]) {
+		System.out.print("test");
+		System.out.print("error");
+	}
+
+>>>>>>> 7603bf60573cc060e163942e7e41c84519a157fe
 }
 	
 
